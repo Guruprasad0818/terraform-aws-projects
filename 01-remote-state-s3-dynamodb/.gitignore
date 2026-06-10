@@ -1,0 +1,15 @@
+# Terraform directories and generated files [cite: 263]
+.terraform/ [cite: 264]
+.terraform.lock.hcl [cite: 265]
+
+# State files — never commit these [cite: 266]
+*.tfstate [cite: 267]
+*.tfstate.backup [cite: 268]
+
+# Variable files (may contain secrets) [cite: 269]
+# Remove this line if you want to commit terraform.tfvars [cite: 270]
+# *.tfvars [cite: 271]
+
+# OS files [cite: 272]
+.DS_Store [cite: 273]
+Thumbs.db [cite: 274]
